@@ -17,4 +17,5 @@ dependencies:
   - hydra-core
   - omegaconf
   - pyarrow
+  - nbstripout
 prefix: /Users/ThadCreech/opt/anaconda3/envs/credit-risk-ml
