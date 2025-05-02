@@ -1,18 +1,20 @@
 name: credit-risk-ml
 channels:
-  - conda-forge
+  - defaults
 dependencies:
-  # Core
-  - python=3.12
-  - pandas
-  - numpy
-  - scikit-learn
-  - matplotlib
-  - jupyterlab
-  - ipykernel
-  - shap
-  # Dev / tooling
   - black
-  - ruff
+  - ipykernel
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
   - pre-commit
   - pytest
+  - python=3.12
+  - ruff
+  - scikit-learn
+  - shap
+  - hydra-core
+  - omegaconf
+  - pyarrow
+prefix: /Users/ThadCreech/opt/anaconda3/envs/credit-risk-ml

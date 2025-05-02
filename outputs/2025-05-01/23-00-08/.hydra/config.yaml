@@ -1,0 +1,9 @@
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  models: models
+model:
+  name: elastic_net
+  cv_folds: 5
+  seed: 42
