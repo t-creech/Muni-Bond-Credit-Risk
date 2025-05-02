@@ -1,0 +1,18 @@
+name: credit-risk-ml
+channels:
+  - conda-forge
+dependencies:
+  # Core
+  - python=3.12
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - shap
+  # Dev / tooling
+  - black
+  - ruff
+  - pre-commit
+  - pytest
